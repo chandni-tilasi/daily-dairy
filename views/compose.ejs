@@ -1,0 +1,24 @@
+<%-  include("header") -%>
+<h1>compose</h1>
+
+
+<form action="/compose" method="post"> 
+    <div class="form-group">
+
+<label for="formGroupExampleInput">title</label>
+<input type="text" class="form-control" id="formGroupExampleInput" name="posttitle" >
+ 
+
+<label for="exampleFormControlTextarea1">compose</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="postbody"></textarea>
+
+    </div>
+    <button type="submit" type="button" class="btn btn-primary">publish</button>
+
+
+</form>
+
+
+
+<%-  include("footer") -%>
+
